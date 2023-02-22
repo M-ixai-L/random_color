@@ -1,0 +1,31 @@
+name: random_color
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  bloc: ^8.1.1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  freezed_annotation: ^2.2.0
+  get_it: ^7.2.0
+  injectable: ^2.1.0
+  intl: ^0.18.0
+
+dev_dependencies:
+  bloc_test: ^9.1.1
+  build_runner: ^2.3.3
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.2.0
+  injectable_generator: ^2.1.4
+  mocktail: ^0.3.0
+  solid_lints: ^0.0.14
+
+flutter:
+  uses-material-design: true
+  generate: true
